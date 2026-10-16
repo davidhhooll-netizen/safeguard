@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bau & Sicherheit – SafeGuard Consulting</title>
+<meta name="description" content="Operative Baukompetenz und professionelle Sicherheitskoordination für rechtskonforme, planbare Projektabläufe.">
+<meta name="theme-color" content="#0B1727">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap bar">
+    <a class="brand" href="index.html"><svg class="mark" viewBox="0 0 32 36" aria-hidden="true"><path d="M16 1.5 30 6.5v11c0 8.6-6 14.6-14 17-8-2.4-14-8.4-14-17v-11Z" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="m9.5 18 4.6 4.6 8.4-9" fill="none" stroke="var(--signal)" stroke-width="2.8" stroke-linecap="square"/></svg><span><b>SafeGuard</b> Consulting</span></a>
+    <nav class="nav" aria-label="Hauptnavigation"><a href="personal.html">Personal</a><a href="bau-sicherheit.html" aria-current="page">Bau & Sicherheit</a><a href="schulungen.html">Schulungen</a><a href="digital.html">Digital</a><a class="nav-cta" href="index.html#kontakt">Kontakt</a></nav>
+  </div>
+</header><main>
+<section class="hero hero--sub hero--bau">
+  <div class="wrap hero-inner">
+    <p class="kicker">Bau & Arbeitssicherheit</p>
+    <h1>Bauen und absichern aus einer Hand.</h1>
+    <p class="lead">Operative Baukompetenz und professionelle Sicherheitskoordination für rechtskonforme, planbare Projektabläufe.</p>
+    <p class="chip"><span>Grundlage SiGeKo</span>Baustellenverordnung (BaustellV)</p>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap detail">
+    <div class="detail-text"><h2>Umsetzung und Sicherheitsmanagement</h2><p>Wir verbinden Bauleistungen in Hochbau, Tiefbau und Trockenbau mit einem strukturierten Sicherheitsansatz. Dazu gehören Arbeitssicherheit, HSE-Management, Sicherheits- und Gesundheitsschutzkoordination sowie organisatorischer Brandschutz. Praxisnah umgesetzt und sauber dokumentiert.</p></div>
+    <div class="detail-lists"><div class="list-block"><h3>Bauleistungen</h3><ul class="checks"><li>Hochbau, Tiefbau, Trockenbau</li><li>Koordination auf der Baustelle</li><li>Ausrichtung auf Qualität und Termine</li></ul></div><div class="list-block"><h3>Sicherheitsleistungen</h3><ul class="checks"><li>Arbeitssicherheit und HSE-Management</li><li>SiGeKo nach Baustellenverordnung</li><li>Organisatorischer Brandschutz</li></ul></div></div>
+  </div>
+</section>
+<section class="section section--alt">
+  <div class="wrap split">
+    <div class="section-head"><p class="kicker">Ablauf</p><h2>So arbeiten wir</h2></div>
+    <ol class="steps steps--plain"><li><b>Baustelle und Gewerke aufnehmen</b></li><li><b>SiGe-Plan erstellen und abstimmen</b></li><li><b>Begehungen und Koordination vor Ort</b></li><li><b>Unterlage für spätere Arbeiten übergeben</b></li></ol>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
+    <div class="section-head"><p class="kicker">Passt dazu</p><h2>Verwandte Leistungen</h2></div>
+    <div class="related"><a class="rel" href="personal.html"><span>Personalvermittlung</span><b>Personal</b></a><a class="rel" href="schulungen.html"><span>Unterweisung & Training</span><b>Schulungen</b></a></div>
+  </div>
+</section>
+<section class="contact" id="kontakt">
+  <div class="wrap contact-grid">
+    <div>
+      <p class="kicker">Kontakt</p>
+      <h2>Projekt besprechen?</h2>
+      <p class="muted">Rufen Sie an oder schreiben Sie uns. Wir melden uns zeitnah mit einer Rückmeldung.</p>
+    </div>
+    <dl class="contact-list">
+      <div><dt>Telefon</dt><dd><a href="tel:+491634682912">+49 163 4682912</a></dd></div>
+      <div><dt>E-Mail</dt><dd><a href="mailto:safeguardconsulting89@gmail.com">safeguardconsulting89@gmail.com</a></dd></div>
+      <div><dt>Anschrift</dt><dd>Hammfelddamm 4a, 41460 Neuss</dd></div>
+    </dl>
+  </div>
+</section>
+</main><footer class="foot">
+  <div class="wrap foot-grid">
+    <div class="foot-brand"><svg class="mark" viewBox="0 0 32 36" aria-hidden="true"><path d="M16 1.5 30 6.5v11c0 8.6-6 14.6-14 17-8-2.4-14-8.4-14-17v-11Z" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="m9.5 18 4.6 4.6 8.4-9" fill="none" stroke="var(--signal)" stroke-width="2.8" stroke-linecap="square"/></svg><div><b>SafeGuard Consulting GmbH</b><br>Hammfelddamm 4a, 41460 Neuss</div></div>
+    <div class="foot-meta">Amtsgericht Neuss, HRB 25333<br>USt-IdNr. DE462748640</div>
+    <nav class="foot-links" aria-label="Rechtliches"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a><span>© 2026</span></nav>
+  </div>
+</footer>
+<canvas id="net" aria-hidden="true"></canvas>
+<script>
+/* Sicherheitsnetz: gespanntes Netz, das auf Maus/Touch mit Wellen reagiert; Klick und Hover lösen Blitze aus. */
+(function () {
+  var c = document.getElementById('net');
+  if (!c || !c.getContext) return;
+  var ctx = c.getContext('2d');
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var W, H, dpr, G, cols, rows, h, p, sparks = [], last = null, running = true, raf = 0;
+
+  function size() {
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    W = innerWidth; H = innerHeight;
+    c.width = W * dpr; c.height = H * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    G = W < 640 ? 30 : 38;
+    cols = Math.ceil(W / G) + 3; rows = Math.ceil(H / G) + 3;
+    h = new Float32Array(cols * rows); p = new Float32Array(cols * rows);
+    if (reduce) draw();
+  }
+
+  function poke(px, py, amt, rad) {
+    var ci = Math.round(px / G) + 1, ri = Math.round(py / G) + 1;
+    for (var dy = -rad; dy <= rad; dy++) for (var dx = -rad; dx <= rad; dx++) {
+      var i = ci + dx, j = ri + dy;
+      if (i < 1 || j < 1 || i >= cols - 1 || j >= rows - 1) continue;
+      var d = Math.sqrt(dx * dx + dy * dy);
+      if (d > rad) continue;
+      h[j * cols + i] += amt * (1 - d / (rad + 0.5));
+    }
+  }
+
+  function nx(i, j) { return (i - 1) * G + h[j * cols + i] * 0.22; }
+  function ny(i, j) { return (j - 1) * G + h[j * cols + i] * 0.45; }
+
+  // Blitz: Zufallsweg über die Knoten des Netzes, mit Verästelung
+  function spark(px, py, len) {
+    if (reduce) return;
+    var i = Math.round(px / G) + 1, j = Math.round(py / G) + 1;
+    function walk(i, j, n, depth) {
+      var pts = [[i, j]];
+      var di = Math.random() < 0.5 ? 1 : -1, dj = Math.random() < 0.5 ? 1 : -1;
+      for (var s = 0; s < n; s++) {
+        if (Math.random() < 0.55) i += di; else j += dj;
+        if (Math.random() < 0.18) di = -di;
+        if (Math.random() < 0.12) dj = -dj;
+        if (i < 1 || j < 1 || i >= cols - 1 || j >= rows - 1) break;
+        pts.push([i, j]);
+        if (depth < 1 && Math.random() < 0.12) walk(i, j, Math.floor(n / 2), depth + 1);
+      }
+      sparks.push({ pts: pts, t: performance.now(), w: depth ? 1.2 : 2.2 });
+      for (var k = 0; k < pts.length; k += 2) h[pts[k][1] * cols + pts[k][0]] += 26;
+    }
+    walk(i, j, len || 16, 0);
+  }
+
+  function step() {
+    for (var j = 1; j < rows - 1; j++) for (var i = 1; i < cols - 1; i++) {
+      var k = j * cols + i;
+      p[k] = ((h[k - 1] + h[k + 1] + h[k - cols] + h[k + cols]) / 2 - p[k]) * 0.968;
+    }
+    var t = h; h = p; p = t;
+  }
+
+  var buckets = [0.16, 0.32, 0.55, 0.85];
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+    ctx.lineWidth = 1;
+    // Grundnetz
+    ctx.strokeStyle = 'rgba(122,160,196,0.11)';
+    ctx.beginPath();
+    for (var j = 0; j < rows; j++) for (var i = 0; i < cols; i++) {
+      if (i < cols - 1) { ctx.moveTo(nx(i, j), ny(i, j)); ctx.lineTo(nx(i + 1, j), ny(i + 1, j)); }
+      if (j < rows - 1) { ctx.moveTo(nx(i, j), ny(i, j)); ctx.lineTo(nx(i, j + 1), ny(i, j + 1)); }
+    }
+    ctx.stroke();
+    // Bewegte Stellen leuchten in Signalgelb
+    for (var b = 0; b < buckets.length; b++) {
+      var lo = 4 + b * 7, hi = b === buckets.length - 1 ? 1e9 : lo + 7;
+      ctx.strokeStyle = 'rgba(255,194,26,' + buckets[b] + ')';
+      ctx.beginPath();
+      for (var j2 = 0; j2 < rows; j2++) for (var i2 = 0; i2 < cols; i2++) {
+        var a = Math.abs(h[j2 * cols + i2]);
+        if (a < lo || a >= hi) continue;
+        if (i2 < cols - 1) { ctx.moveTo(nx(i2, j2), ny(i2, j2)); ctx.lineTo(nx(i2 + 1, j2), ny(i2 + 1, j2)); }
+        if (j2 < rows - 1) { ctx.moveTo(nx(i2, j2), ny(i2, j2)); ctx.lineTo(nx(i2, j2 + 1), ny(i2, j2 + 1)); }
+      }
+      ctx.stroke();
+    }
+    // Blitze
+    var now = performance.now();
+    sparks = sparks.filter(function (s) { return now - s.t < 520; });
+    sparks.forEach(function (s) {
+      var age = (now - s.t) / 520, alpha = 1 - age;
+      ctx.save();
+      ctx.shadowColor = 'rgba(255,214,90,0.9)'; ctx.shadowBlur = 14;
+      ctx.strokeStyle = 'rgba(255,236,170,' + alpha + ')';
+      ctx.lineWidth = s.w;
+      ctx.beginPath();
+      s.pts.forEach(function (q, k) {
+        var X = nx(q[0], q[1]) + (Math.random() - 0.5) * 5, Y = ny(q[0], q[1]) + (Math.random() - 0.5) * 5;
+        if (k) ctx.lineTo(X, Y); else ctx.moveTo(X, Y);
+      });
+      ctx.stroke();
+      ctx.restore();
+    });
+  }
+
+  var lastAmbient = 0;
+  function loop(t) {
+    if (!running) return;
+    if (t - lastAmbient > 1600) { // leises Grundrauschen, damit das Netz auch ohne Maus lebt
+      poke(Math.random() * W, Math.random() * H, 30, 2); lastAmbient = t;
+    }
+    step(); draw();
+    raf = requestAnimationFrame(loop);
+  }
+
+  size();
+  addEventListener('resize', size);
+  if (reduce) return;
+
+  addEventListener('pointermove', function (e) {
+    if (last) {
+      var v = Math.min(Math.hypot(e.clientX - last.x, e.clientY - last.y), 60);
+      poke(e.clientX, e.clientY, v * 1.1, 2);
+    }
+    last = { x: e.clientX, y: e.clientY };
+  }, { passive: true });
+  addEventListener('pointerdown', function (e) {
+    poke(e.clientX, e.clientY, -140, 3);
+    spark(e.clientX, e.clientY, 22);
+  });
+  document.querySelectorAll('.tile,.rel,.btn,.nav-cta,.list-block').forEach(function (el) {
+    el.addEventListener('pointerenter', function (e) { spark(e.clientX, e.clientY, 12); });
+    el.addEventListener('pointermove', function (e) {
+      var r = el.getBoundingClientRect();
+      el.style.setProperty('--mx', (e.clientX - r.left) + 'px');
+      el.style.setProperty('--my', (e.clientY - r.top) + 'px');
+    });
+  });
+  document.addEventListener('visibilitychange', function () {
+    cancelAnimationFrame(raf);
+    running = !document.hidden; if (running) raf = requestAnimationFrame(loop);
+  });
+
+  // Ein Auftakt beim Laden: Druckwelle mit Blitz unter der Überschrift
+  var h1 = document.querySelector('h1');
+  var r = h1 ? h1.getBoundingClientRect() : { left: W * 0.3, bottom: H * 0.4, width: 0 };
+  setTimeout(function () {
+    poke(r.left + Math.min(r.width, W) * 0.6, r.bottom - 20, -220, 4);
+    spark(r.left + Math.min(r.width, W) * 0.6, r.bottom - 20, 26);
+  }, 250);
+  raf = requestAnimationFrame(loop);
+})();
+
+</script>
+</body>
+</html>
